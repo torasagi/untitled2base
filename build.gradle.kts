@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "2.0.0"
+    id("io.gitlab.arturbosch.detekt") version "1.23.7"
 }
 
 group = "org.example"
@@ -18,4 +19,8 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(21)
+}
+detekt {
+    config.setFrom(file("config/detekt/detekt.yml"))
+    buildUponDefaultConfig = true
 }
