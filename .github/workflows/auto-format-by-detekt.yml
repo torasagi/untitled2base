@@ -6,6 +6,9 @@ on:
       - "config/detekt/detekt.yml"
       - "**/*.kt"
 
+permissions:
+  contents: write
+
 jobs:
   format:
     runs-on: ubuntu-latest
