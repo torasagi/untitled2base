@@ -8,7 +8,7 @@ const val LOOP_TIMES = 5
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
     fun isLuckyNumber(number: Int): Boolean {
-        return number == LUCKY_NUMBER
+        return number==LUCKY_NUMBER
     }
 
     val name = "Kotlin"
