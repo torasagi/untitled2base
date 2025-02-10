@@ -130,6 +130,7 @@ comments:
       ]
     searchProtectedProperty: false
 
+#
 complexity:
   active: true
   CognitiveComplexMethod:
