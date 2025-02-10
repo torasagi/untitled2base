@@ -4,7 +4,7 @@ const val LUCKY_NUMBER = 777
 
 fun main() {
     fun isLuckyNumber(number: Int): Boolean {
-        return number==LUCKY_NUMBER
+        return number == LUCKY_NUMBER
     }
 
     val name = "Kotlin"
