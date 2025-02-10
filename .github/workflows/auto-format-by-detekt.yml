@@ -7,8 +7,6 @@ on:
       - "**/*.kt"
 
 permissions:
-  actions: write
-  checks: write
   contents: write
 
 jobs:

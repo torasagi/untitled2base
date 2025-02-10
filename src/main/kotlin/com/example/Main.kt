@@ -1,11 +1,7 @@
 package com.example
 
 const val LUCKY_NUMBER = 777
-const val UNLUCKY_NUMBER = 666
-const val LOOP_TIMES = 5
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
     fun isLuckyNumber(number: Int): Boolean {
         return number == LUCKY_NUMBER
@@ -16,9 +12,12 @@ fun main() {
     // to see how IntelliJ IDEA suggests fixing it.
     println("Hello, $name!")
 
-    isLuckyNumber(UNLUCKY_NUMBER)
+    val unLuckyNumber = 666
+    isLuckyNumber(unLuckyNumber)
 
-    for (i in 1..LOOP_TIMES) {
+    val loopTimes = 5
+
+    for (i in 1..loopTimes) {
         // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
         // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
