@@ -1,5 +1,5 @@
 package com.example
 
 object Constants {
-    const val LUCKY_NUMBER=777
+    const val LUCKY_NUMBER = 777
 }
