@@ -7,7 +7,16 @@ fun main() {
     println("Hello, $name!")
 
     val unLuckyNumber = 666
-    isLuckyNumber(unLuckyNumber)
+
+    fun tryCheckLuck(value: Int) {
+        if (value == Constants.LUCKY_NUMBER) {
+            println("You are lucky!")
+        } else {
+            println("You are not lucky!")
+        }
+    }
+
+    tryCheckLuck(unLuckyNumber)
 
     val loopTimes = 5
 
@@ -17,10 +26,4 @@ fun main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         println("i = $i")
     }
-}
-
-const val LUCKY_NUMBER = 777
-
-fun isLuckyNumber(number: Int): Boolean {
-    return number == LUCKY_NUMBER
 }
